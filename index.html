@@ -45,9 +45,23 @@
               <div class="col-md-3">Etibar</div>
               <div class="col-md-3 col-xs-12">
                 <div class="row">
+                <div class="doublePort regtangle"><span>What's Hot</span></div>
+  <div class="iPressSlide">
+                  <!-- slider bootstrap -->
+                    
+                    <div id="ICarousel" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators right">
+                        <li data-target="#ICarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#ICarousel" data-slide-to="1"></li>
+                        <li data-target="#ICarousel" data-slide-to="2"></li>
+                      </ol>
+                      
 
-                  <div class="doublePort regtangle"><span>What's Hot</span></div>
-                  <div class="row">
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="row">
                   <div  class="col-md-4 col-xs-4">
                   <div class="smallBox"></div>
                   <div class="smallBox"></div>
@@ -64,7 +78,54 @@
                   
                 </div>
                 </div>
-              </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                  <div  class="col-md-4 col-xs-4">
+                  <div class="smallBox"></div>
+                  <div class="smallBox"></div>
+                  <div class="smallBox"></div>
+                  <div class="smallBox"></div>
+                  <div class="smallBox"></div>
+                </div>
+                <div class="col-md-8 col-xs-8">
+                  <div class="textBox"><p>Lorem impsum Lorem impsum</p></div>
+                  <div class="textBox"><p>Lorem impsum Lorem impsum</p></div>
+                  <div class="textBox"><p>Lorem impsum Lorem impsum</p></div>
+                  <div class="textBox"><p>Lorem impsum Lorem impsum</p></div>
+                  <div class="textBox"><p>Lorem impsum Lorem impsum</p></div>
+                  
+                </div>
+                </div>
+                        </div>
+                        
+                        <div class="item">
+                            <div class="row">
+                  <div  class="col-md-4 col-xs-4">
+                  <div class="smallBox"></div>
+                  <div class="smallBox"></div>
+                  <div class="smallBox"></div>
+                  <div class="smallBox"></div>
+                  <div class="smallBox"></div>
+                </div>
+                <div class="col-md-8 col-xs-8">
+                  <div class="textBox"><p>Lorem impsum Lorem impsum</p></div>
+                  <div class="textBox"><p>Lorem impsum Lorem impsum</p></div>
+                  <div class="textBox"><p>Lorem impsum Lorem impsum</p></div>
+                  <div class="textBox"><p>Lorem impsum Lorem impsum</p></div>
+                  <div class="textBox"><p>Lorem impsum Lorem impsum</p></div>
+                  
+                </div>
+                </div>
+                        </div>
+                       
+                        
+                      </div>
+                      
+                    </div>
+                  <!-- slider bootstrap -->
+                </div>
+                </div>
               <div class="row">
               <br>
                 <div class="doublePort regtangle"><span>Footbal result</span></div>
@@ -181,6 +242,11 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="assets/js/bootstrap.min.js"></script>s
+<script src="assets/js/bootstrap.min.js"></script>
+<script>
+  $('#ICarousel').carousel({
+  interval: false,
+})
+</script>
 </body>
 </html>
