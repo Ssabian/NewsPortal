@@ -30,6 +30,15 @@
     #myCarousel #newsOne span {
       color: white; }
 
+.btnHover {
+  background-color: #E84A4A;
+  color: white;
+  transition: all 1s ease; }
+
+.btnHover:hover {
+  transition: all 1s ease;
+  background-color: black; }
+
 .regtangle:after {
   content: "";
   position: absolute;

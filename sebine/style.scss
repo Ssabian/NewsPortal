@@ -27,11 +27,20 @@
     height:260px;
     background-color:#36A7D6;
      #newsOne{
-  padding:20px;
-   span{
-   color:white;
+      padding:20px;
+       span{
+       color:white;
      }
     }
+   }
+   .btnHover{
+   background-color:#E84A4A;
+   color:white;
+   transition:all 1s ease;
+   }
+   .btnHover:hover{
+   transition:all 1s ease;
+   background-color:black;
    }
 
    .regtangle:after{
