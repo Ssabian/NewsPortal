@@ -3,6 +3,7 @@
 	background-color:black;
 	height:35px;
 	padding:7px;
+	position:relative;
 	span{
 	color:white;
 	}
@@ -32,6 +33,19 @@
      }
     }
    }
+
+   .regtangle:after{
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	left: 3%;
+    bottom: -10px;
+    border-top: 10px solid black;
+}
+
   
 
  
